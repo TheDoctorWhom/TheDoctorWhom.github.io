@@ -3,89 +3,50 @@
 <head>
 	<title>Zachery Dutton</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script type="text/javascript" href="jquery-1.8.3.js"></script>
-	<script type="text/javascript" href="controller.js"></script>
 </head>
 <body>	
-		<nav class="navbar navbar-inverse">
-			<div class= "container">
-				<div class="row">
-					<div class="col-md-6"></div>
-					<div class="col-md-6">
-						<button type="button" class="btn btn-default navbar-btn">about</button>
-						<button type="button" class="btn btn-default navbar-btn">qualifications</button>
-						<button type="button" class="btn btn-default navbar-btn">portfolio</button>
-						<button type="button" class="btn btn-default navbar-btn">contact</button>
-					</div>
-				</div>
-			</div>
-		</nav>
+	<nav>
+		<div class="container">
+			<a href="#about">about</a>
+			<a href="#qualifications">qualifications</a>
+			<a href="#portfolio">portfolio</a>
+			<a href="#contact">contact</a>
+		</div>
+	</nav>
 	<header>
-			<div class="jumbotron">
-				<h1>Zachery Dutton</h1>
-				<h2>Frontend Development & Boardgamer</h2>
-			</div>
+		<h1>Zachery Dutton</h1>
+		<p>Frontend Development & Boardgamer</p>
 	</header>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-6">
-				<div class="container">
-					<div class="row">
-							<div class="col-md-3 col-md-push-1">
-								<img src="img/profile_ga.png" class="img-rounded " alt="Profile picture of Zachery Dutton">
-							</div>
-						</div>
-					</div>
-				</div>
-		
-
-		
-			<div class="col-sm-6">
-				<h3>about</h3>
+	<main class="container">
+		<section id="about">
+			<img src="img/profile_ga.png" class="img-rounded" alt="Profile picture of Zachery Dutton">
+			<div>
+				<h2>about</h2>
 				<p>I have lived in denver for the last 10 years. I enjoy riding my bike, playing board games (especially Agricola), and writing code. I am always learning new things and applying them to my projects. I love coding because I get to build something and see it come alive.<a href="#">Learn More...</a></p>
 			</div>
-		</div>
-
-	</div>
-	<div class="container">
-		<div class="row">
+		</section>
+		<section id="qualifications">
+			<h2>qualifications</h2>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Javascript/Jquery</li>
+				<li>Rule Enforcer</li>
+				<li><a href="#">Learn More...</a></li>
+			</ul>
+		</section>
+		<section id="portfolio">
+			<h2>portfolio</h2>
+			<p>My code is functional, ledgable, and worth 2 victory points.<a href="#">Learn More...</a></p>
+		</section>
+		<section id="contact">
+			<h2>contact me</h2>
+			<p>Draw four cards and send me a<a href="#"> message...</a></p>
+		</section>
+	</main>
+	<footer>
 		
-			<div class="col-sm-6 col-md-9 col-md-push-6">
-				<h3>qualifications</h3>
-					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>Javascript/Jquery</li>
-						<li>Rule Enforcer</li>
-						<li><a href="#">Learn More...</a></li>
-
-					</ul>
-			</div>
-		</div>
-
-	</div>
-	<div class="container">
-		<div class="row">
-		
-			<div class="col-sm-6 col-md-9 col-md-push-6">
-				<h3>portfolio</h3>
-				<p>My code is functional, ledgable, and worth 2 victory points.<a href="#">Learn More...</a></p>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-		
-			<div class="col-sm-6 col-md-9 col-md-push-6">
-				<h3>contact me</h3>
-				<p>Draw four cards and send me a<a href="#"> message...</a></p>
-			</div>
-		</div>
-	</div>
-
-	
+	</footer>
 </body>
 </html>
