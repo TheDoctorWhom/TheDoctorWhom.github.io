@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: Ye_Olde_Oak;
+    src: url(Ye_Olde_Oak.ttf);
+}
+
+@font-face {
+    font-family: Yonkers;
+    src: url(Yonkers.ttf);
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background-color: #000;
+  color:rgba(0,0,0,.87);
+  font-size:16px;
+  font-family:helvetica, arial, sans-serif;
+}
+nav {
+  background-color:#000;
+  font-family: Yonkers;
+}
+nav a {
+  background-color:#ccc;
+  border-radius:.2em;
+  color:rgba(0,0,0,.87);
+  display:inline-block;
+  margin-right:1em;
+  padding:.5em;
+  text-decoration:none;
+}
+section p,h2,ul{
+  background-color:#ccc;
+}
+header {
+  background-color:#ccc;
+  padding:2em 0;
+  text-align:center;
+
+}
+h1{
+  font-family: Ye_Olde_Oak;
+}
+h2{
+  font-family: Yonkers;
+}
